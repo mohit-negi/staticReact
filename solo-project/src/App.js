@@ -1,17 +1,22 @@
-import './App.css';
-import Profile from "./components/Profile"
-import About from "./components/About"
-import Interests from "./components/Interests"
-import Footer from "./components/Footer"
-function App() {
+
+
+import React from "react";
+import Card from "./components/Card";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import "./App.css";
+import "./index.css"
+
+export default function App() {
+  // return <h1>Hello World! Welcome to my small project</h1>;
   return (
-    <div className="Container">
-    <Profile />
-    <About />
-    <Interests />
+    <div className="container">
+    <Card />
+    <Header />
+    <Main />
     <Footer />
     </div>
-  );
+    
+  )
 }
-
-export default App;
