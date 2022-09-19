@@ -43,5 +43,30 @@ section{
   font-size: 1.5em;
   padding-left: 3%;
 }
-
-
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 250px;
+}
+.card--image{
+  width: 200px;
+  height: 200px;
+  padding: 20px 0px;
+}
+.card-description{
+  font-size: 12px;
+  line-height: 13px;
+}
+.gray{
+  color:gray;
+}
+.card--info{
+  display: flex;
+}
+.staricon{
+  width: 15px;
+}
+.card--bold{
+  font-weight: bold;
+}
