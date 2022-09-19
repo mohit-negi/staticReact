@@ -4,7 +4,7 @@ export default function Header()
 {
     return(
         <nav className="navbar">
-            <img className="logo" src={process.env.PUBLIC_URL + '/airbnblogo.png'} alt="airbnb logo"/>
+            <img className="logo" src={require('./images/airbnblogo.png')} alt="airbnb logo"/>
         </nav>
     )
 }
